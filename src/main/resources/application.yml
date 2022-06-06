@@ -1,10 +1,12 @@
+spring:
+  application:
+    name: config-server
+#  security:
+#    user:
+#      name: ds
+#      password: ds123
 server:
   port: 8081
-spring:
-  security:
-    user:
-      name: ds
-      password: ds123
   cloud:
     config:
       server:
