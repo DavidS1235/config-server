@@ -1,3 +1,5 @@
+server:
+  port: 8081
 spring:
   application:
     name: config-server
@@ -5,8 +7,6 @@ spring:
 #    user:
 #      name: ds
 #      password: ds123
-server:
-  port: 8081
   cloud:
     config:
       server:
