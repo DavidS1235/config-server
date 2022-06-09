@@ -3,16 +3,10 @@ server:
 spring:
   application:
     name: config-server
-#  security:
-#    user:
-#      name: ds
-#      password: ds123
   cloud:
     config:
       server:
         git:
           uri: https://github.com/DavidS1235/config-repository.git
-          #username:
-          #password:
-          #search-paths: /
-          #default-label: "main"
+          searchPaths: /
+
