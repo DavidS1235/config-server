@@ -14,5 +14,5 @@ spring:
           uri: https://github.com/DavidS1235/config-repository.git
           #username:
           #password:
-          #search-paths: /
+          search-paths: /
           #default-label: "main"
