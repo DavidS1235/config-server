@@ -9,4 +9,9 @@ spring:
         git:
           uri: https://github.com/DavidS1235/config-repository.git
           searchPaths: /
-
+#          username: ${GIT_USER}
+#          password: ${GIT_PASS}
+#  security:
+#    user:
+#      name: ds
+#      password: ds123
